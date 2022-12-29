@@ -82,3 +82,29 @@ body {
     color: var(--clr-secundary--200);
     font-weight: var(--fw-semi-bold);
 }
+
+.product__price {
+    font-weight: var(--fw-regular);
+    color: var(--clr-neutral-100);
+    display: flex;
+    gap: 0.5rem;
+}
+
+.product__price[data-icon="eth-icon"]::before {
+    content: "";
+    background-image: url("images/icon-ethereum.svg");
+    width: 11px;
+    height: 18px;
+}
+
+.product__info-time {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.product__info-time[data-icon="time-icon"]::before {
+    content: "";
+    background-image: url("images/icon-clock.svg");
+    width: 17px;
+    height: 17px;
+}
