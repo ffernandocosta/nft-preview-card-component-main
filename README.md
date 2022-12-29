@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [My solution](https://github.com/ffernandocosta/nft-preview-card-component-main)
-- [Live sersion](https://ffernandocosta.github.io/nft-preview-card-component-main/)
+- [Live version](https://ffernandocosta.github.io/nft-preview-card-component-main/)
 
 ## My process
 
