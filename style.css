@@ -67,6 +67,7 @@ body {
     overflow: hidden;
     background-color: var(--clr-neutral-800);
     box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.50);
+    max-width: 327px;
 }
 
 .product__img-container {
