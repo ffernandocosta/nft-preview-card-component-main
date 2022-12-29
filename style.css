@@ -81,6 +81,7 @@ body {
     font-size: 1.325rem;
     color: var(--clr-secundary--200);
     font-weight: var(--fw-semi-bold);
+    text-decoration: none;
 }
 
 .product__price {
@@ -119,4 +120,9 @@ body {
     width: 12%;
     border: 1px solid var(--clr-neutral-100);
     border-radius: 5rem;
+}
+
+.product__author-link {
+    text-decoration: none;
+    color: var(--clr-neutral-100);
 }
