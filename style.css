@@ -108,3 +108,15 @@ body {
     width: 17px;
     height: 17px;
 }
+
+.product__line-break {
+    border: none;
+    height: 0.01rem;
+    background-color: var(--clr-primary--300);
+}
+
+.profile-avatar {
+    width: 12%;
+    border: 1px solid var(--clr-neutral-100);
+    border-radius: 5rem;
+}
