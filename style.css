@@ -1,3 +1,5 @@
+/* my variables */
+
 :root {
     --clr-primary--300: hsl(215, 51%, 70%);
     --clr-secundary--200: hsl(178, 100%, 50%);
@@ -12,4 +14,71 @@
     --fw-light: 300;
     --fw-regular: 400;
     --fw-semi-bold: 600;
+}
+
+/* general styling */
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-light);
+    font-size: 1rem;
+    color: var(--clr-primary--300);
+    background-color: var(--clr-neutral-900);
+
+    /* since it's a simple project and all the content is center in the middle, I decided to put this on the body */
+
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+
+}
+
+
+/* utilities */
+
+.flex-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-group-2 {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* product styles */
+
+.product {
+    /* creating vars for this product class just to make it easier to adjust later in the project */
+    
+    --contant-padding: 1.5rem;
+    --contant-spacing: 1.1rem;
+    
+    
+    display: grid;
+    padding: var(--contant-padding);
+    gap: var(--contant-spacing);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: var(--clr-neutral-800);
+}
+
+.product__img {
+    border-radius: 0.5rem;
+}
+
+.product__content {
+    display: grid;
+    gap: var(--contant-spacing);
+}
+
+.product__title {
+    font-size: 1.325rem;
+    color: var(--clr-secundary--200);
+    font-weight: var(--fw-semi-bold);
 }
